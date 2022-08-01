@@ -1,0 +1,2749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>9</number>
+    </property>
+    <widget class="QWidget" name="Page_1">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>50</y>
+        <width>211</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>250</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>25</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#pushButton {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 30px;
+ }
+
+
+ QPushButton#pushButton:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#pushButton:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 30px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>Customer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>350</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>25</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#pushButton_2 {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 30px;
+ }
+
+
+ QPushButton#pushButton_2:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#pushButton_2:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 30px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>Administrator</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>440</y>
+        <width>311</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>25</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#pushButton_3 {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 30px;
+ }
+
+
+ QPushButton#pushButton_3:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#pushButton_3:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 30px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="CREATE_PRODUCT_page">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QLabel" name="Creat_P_lab">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>CREATE PRODUCT
+PAGE</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Back_Create_P">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#Back_Create_P {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#Back_Create_P:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#Back_Create_P:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="C_P_P_Logo">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="C_P_product_no">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>220</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Product No</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="C_P_product_name">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>280</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string notr="true">Product Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="C_P_product_price">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>340</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string notr="true">Product Price</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="C_P_product_price_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>400</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string notr="true">Product Discount</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CREATE_PRODUCT_Update">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>470</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#CREATE_PRODUCT_Update {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#CREATE_PRODUCT_Update:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#CREATE_PRODUCT_Update:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>CREATE PRODUCT</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Customer_Page">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>CUSTOMER</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Customer_Page_back">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#Customer_Page_back {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#Customer_Page_back:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#Customer_Page_back:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableView" name="Customer_Page_table">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>220</y>
+        <width>451</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Customer_Page_product">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>300</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Product No</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Customer_Page_quantity">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>380</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string notr="true">Product Quantity</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Customer_Page_btn">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>490</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#Customer_Page_btn {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#Customer_Page_btn:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#Customer_Page_btn:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+
+
+DISPLAY_ALL_PRODUCTS</string>
+      </property>
+      <property name="text">
+       <string>ADD TO CART</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Pro">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>230</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Customer_Page_text_lab_2">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>230</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string>Selected</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Customer_Page_payment">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>490</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#Customer_Page_payment {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#Customer_Page_payment:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#Customer_Page_payment:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+
+
+DISPLAY_ALL_PRODUCTS</string>
+      </property>
+      <property name="text">
+       <string>PAYMENT</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="DISPLAY_ALL_PRODUCTS_page">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QPushButton" name="DISPLAY_A_P_back">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#DISPLAY_A_P_back {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#DISPLAY_A_P_bsck:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#DISPLAY_A_P_back:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="DISPLAY_A_P_Title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>DISPLAY ALL PRODUCTS</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LOGO">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTreeView" name="DISPLAY_A_P_table">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>230</y>
+        <width>431</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Administrator_Page">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QLabel" name="Admni_title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>ADMINISTRATOR</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CREATE_PRODUCT">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>240</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#CREATE_PRODUCT {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#CREATE_PRODUCT:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#CREATE_PRODUCT:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>CREATE PRODUCT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DISPLAY_ALL_PRODUCTS">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>300</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#DISPLAY_ALL_PRODUCTS {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#DISPLAY_ALL_PRODUCTS:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#DISPLAY_ALL_PRODUCTS:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+
+
+DISPLAY_ALL_PRODUCTS</string>
+      </property>
+      <property name="text">
+       <string>DISPLAY ALL PRODUCTS</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="MODIFY_PRODUCT">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>360</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#MODIFY_PRODUCT {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#MODIFY_PRODUCT:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#MODIFY_PRODUCT:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>MODIFY PRODUCT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DELETE_PRODUCT">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>420</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#DELETE_PRODUCT {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#DELETE_PRODUCT:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#DELETE_PRODUCT:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>DELETE PRODUCT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Back_admin">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#Back_admin {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#Back_admin:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#Back_admin:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Admni_Logo">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="CUSTOMER_INFO_btn">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>480</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#CUSTOMER_INFO_btn {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#CUSTOMER_INFO_btn:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#CUSTOMER_INFO_btn:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>CUSTOMER INFO</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Login">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QLabel" name="ADMINISTRATOR_title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>ADMINISTRATOR</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ADMINISTRATOR_back">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#ADMINISTRATOR_back {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#ADMINISTRATOR_back:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#ADMINISTRATOR_back:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ADMINISTRATOR_password">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>340</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Password</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ADMINISTRATOR_btn">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>440</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#ADMINISTRATOR_btn {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#ADMINISTRATOR_btn:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#ADMINISTRATOR_btn:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="ADMINISTRATOR_username">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>250</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Enter User Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Admni_Logo_2">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="MODIFY_P_page">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QLabel" name="MODIFY_P_page_Title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>MODIFY PRODUCT</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="MODIFY_P_page_back">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#MODIFY_P_page_back {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#MODIFY_P_page_back:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#MODIFY_P_page_back:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MODIFY_P_page_input_discount">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>390</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string notr="true">Product Discount</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MODIFY_P_page_input_price">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>340</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string notr="true">Product Price</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="MODIFY_P_page_input_no">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>240</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Product No</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="MODIFY_P_page_btn">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>460</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#MODIFY_P_page_btn {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#MODIFY_P_page_btn:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#MODIFY_P_page_btn:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>UPDATE</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="MODIFY_P_page_table">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>270</y>
+        <width>411</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="DELETE_P_page">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QLabel" name="DELETE_P_page_title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>DELETE PRODUCT</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DELETE_P_page_back">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#DELETE_P_page_back {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#DELETE_P_page_back:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#DELETE_P_page_back:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="DELETE_P_page_title_LOGO">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DELETE_P_page_btn">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>370</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#DELETE_P_page_btn {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#DELETE_P_page_btn:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#DELETE_P_page_btn:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>DELETE</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DELETE_P_page_P_No">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>280</y>
+        <width>251</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Product no :</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="DELETE_P_page_table">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>270</y>
+        <width>411</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="PAMENY">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QPushButton" name="PAMENY_page_back">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#PAMENY_page_back {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#PAMENY_page_back:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#PAMENY_page_back:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PAMENY_page_Title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>PAYMENT</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableView" name="PAMENY_page_table">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>210</y>
+        <width>691</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PAMENY_page_mobile">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>460</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Mobile no</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PAMENY_page_btn">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>520</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#PAMENY_page_btn {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#PAMENY_page_btn:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#PAMENY_page_btn:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>Purchase product</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PAMENY_page_total_input">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>440</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 5px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PAMENY_page_total">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>440</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string>Total</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PAMENY_page_name">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>400</y>
+        <width>311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter your name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="DELETE_P_page_title_LOGO_2">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Cash_memo">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QLabel" name="Cash_memo_title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>CASH MEMO</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Cash_memo_back_exit_btn">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>370</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#Cash_memo_back_exit_btn {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#Cash_memo_back_exit_btn:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#Cash_memo_back_exit_btn:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Cash_memo_Congratulation">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>220</y>
+        <width>561</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="DELETE_P_page_title_LOGO_3">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>30</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="CUSTOMER_INFO">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(67, 205, 103, 255), stop:1 rgba(57, 171, 122, 255));</string>
+     </property>
+     <widget class="QPushButton" name="CUSTOMER_INFO_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>90</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton#CUSTOMER_INFO_2 {
+     background-color:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+ }
+
+
+ QPushButton#CUSTOMER_INFO_2:pressed {
+     background-color:  rgb(169,169,169) ; 
+	color:rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 30px;
+ }
+ QPushButton#CUSTOMER_INFO_2:hover {
+     background-color: rgb(211,211,211);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20px;
+	transition: 2s;
+ }
+</string>
+      </property>
+      <property name="text">
+       <string>BACK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CUSTOMER_INFO_title">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>70</y>
+        <width>311</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 20px;</string>
+      </property>
+      <property name="text">
+       <string>CUSTOMER INFO</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="CUSTOMER_INFO_logo">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>40</y>
+        <width>121</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Fugaz One</family>
+        <pointsize>50</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Resource.qrc">:/Resource/IMG/LOGO.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTreeView" name="CUSTOMER_INFO_table">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>220</y>
+        <width>431</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionInfo"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionInfo">
+   <property name="text">
+    <string>Info</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>Customer_Page_product</tabstop>
+  <tabstop>Customer_Page_quantity</tabstop>
+  <tabstop>Customer_Page_btn</tabstop>
+  <tabstop>Customer_Page_payment</tabstop>
+  <tabstop>Customer_Page_back</tabstop>
+  <tabstop>Customer_Page_table</tabstop>
+  <tabstop>CREATE_PRODUCT</tabstop>
+  <tabstop>DISPLAY_ALL_PRODUCTS</tabstop>
+  <tabstop>MODIFY_PRODUCT</tabstop>
+  <tabstop>DELETE_PRODUCT</tabstop>
+  <tabstop>CUSTOMER_INFO_btn</tabstop>
+  <tabstop>Back_admin</tabstop>
+  <tabstop>ADMINISTRATOR_username</tabstop>
+  <tabstop>ADMINISTRATOR_password</tabstop>
+  <tabstop>ADMINISTRATOR_btn</tabstop>
+  <tabstop>ADMINISTRATOR_back</tabstop>
+  <tabstop>MODIFY_P_page_input_no</tabstop>
+  <tabstop>MODIFY_P_page_input_price</tabstop>
+  <tabstop>MODIFY_P_page_input_discount</tabstop>
+  <tabstop>MODIFY_P_page_btn</tabstop>
+  <tabstop>MODIFY_P_page_back</tabstop>
+  <tabstop>MODIFY_P_page_table</tabstop>
+  <tabstop>DELETE_P_page_P_No</tabstop>
+  <tabstop>DELETE_P_page_btn</tabstop>
+  <tabstop>DELETE_P_page_back</tabstop>
+  <tabstop>DELETE_P_page_table</tabstop>
+  <tabstop>PAMENY_page_name</tabstop>
+  <tabstop>PAMENY_page_mobile</tabstop>
+  <tabstop>PAMENY_page_btn</tabstop>
+  <tabstop>PAMENY_page_back</tabstop>
+  <tabstop>Cash_memo_back_exit_btn</tabstop>
+  <tabstop>C_P_product_no</tabstop>
+  <tabstop>C_P_product_name</tabstop>
+  <tabstop>C_P_product_price</tabstop>
+  <tabstop>C_P_product_price_2</tabstop>
+  <tabstop>CREATE_PRODUCT_Update</tabstop>
+  <tabstop>Back_Create_P</tabstop>
+  <tabstop>PAMENY_page_table</tabstop>
+  <tabstop>DISPLAY_A_P_table</tabstop>
+  <tabstop>DISPLAY_A_P_back</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>CUSTOMER_INFO_table</tabstop>
+  <tabstop>CUSTOMER_INFO_2</tabstop>
+ </tabstops>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
